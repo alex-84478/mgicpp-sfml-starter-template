@@ -19,6 +19,11 @@ class Game
   sf::RenderWindow& window;
   sf::Sprite ball;
   sf::Texture ball_texture;
+  sf::Sprite* character;
+  sf::Sprite* passport;
+  sf::Texture* animals = new sf::Texture[3];
+  sf::Texture* passports = new sf::Texture[3];
+
 
 };
 
